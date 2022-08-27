@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STRONGMAN FITNESS CENTER</title>
+
+    <link rel="shortcut icon" href="Images/logo.jpg" type="image/x-icon">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- css file -->
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/excrecise.css">
+
+    <!-- splide files for slider -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css" />
+
+
+
+    <!-- jQuery CDn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand headfonts" href="#">
+                    <!-- <img src="Images/logo.jpg" alt="" width="90" height="90" class="d-inline-block align-text-center"> -->
+                    STRONGMAN FITNESS CENTER
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item headfonts">
+                            <a class="nav-link active headfonts" aria-current="page" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item headfonts">
+                            <a class="nav-link headfonts" href="training.html">TRAINING</a>
+                        </li>
+                        <li class="nav-item headfonts">
+                            <a class="nav-link headfonts" href="excercise.html">EXCERCISE</a>
+                        </li>
+                        <li class="nav-item headfonts">
+                            <a class="nav-link headfonts" href="registration.html">REGISTRATION</a>
+                        </li>
+                        <li class="nav-item headfonts">
+                            <a class="nav-link headfonts" href="reviews.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <section>
+                <h2 class="headfonts">Main types of Workouts</h2>
+                <button class="headfonts" id="enduranceLink">ENDURANCE</button>
+                <div id="endurance">
+                    <p class="black">Endurance exercise, also known as aerobic exercise, helps develop stamina. It can
+                        also improve the functioning of the heart and lungs. Another benefit of endurance exercise is an
+                        increase in the body's metabolic rate, which helps a person burn calories long after their
+                        workout is complete and assist in a person's body-reshaping efforts.
+                        Endurance exercise not only boosts a person's physical health -- it might also increase mental
+                        functioning. When a person performs an endurance exercise, their brain releases endorphins.
+                        Endorphins are the body's natural pain reliever and feel-good hormone. According to the study
+                        "Effects of Exercise," conducted by Dinas, Flouris and Koutedakis, those who participated in
+                        endurance exercise experienced a lower instance of developing symptoms of depression thanks to
+                        experienced elevated levels of endorphin released during and after activity.
+                    </p>
+
+
+                    <div class="flex">
+                        <p id="eType1" class="black">
+                            <strong>BASIC ENDURANCE</strong>
+                            Intensity: around your aerobic threshold (heart rate around 60-70% of your maximum – you can
+                            talk easily with your mate).
+                            Length: workout 30-… min, interval N/A (constant pace, no intervals)
+                            Rest between intervals: – (constant pace, no rest)
+                            Benefits: Basic endurance is the main type of endurance training and is characterized by low
+                            intensity, high volume exercises. Training at this intensity trains your cardiac output and
+                            heart muscle, strengthens your immune system, and reduces cholesterol level and blood
+                            pressure.
+                            As most of the energy produced at this intensity comes from your body fat, it also improves
+                            the
+                            economy of your metabolism.
+                        </P>
+                        <p id="eType2" class="black">
+                            <strong>TEMPO ENDURANCE</strong>
+                            Intensity: just below the anaerobic threshold (heart rate around 75-85% of your maximum –
+                            talking is possible only sentence by sentence).
+                            Length: interval 10-30 min (total length of work intervals does usually not exceed 45-60
+                            min)
+                            Rest between intervals: no general rule, but continue at easy tempo during rest
+                            Benefits: This type of endurance training is meant for improving your workload or speed at
+                            anaerobic threshold. The energy for this workout comes mainly from carbohydrates (sugar),
+                            but
+                            body fats play also a substantial part.
+                        </P>
+                        <p id="eType3" class="black">
+                            <strong>MAXIMAL ENDURANCE</strong>
+                            Intensity: around your VO2max intensity (heart rate around 90-95% of your maximum – talking
+                            is possible only word by word). During the intervals lactate accumulates pretty fast that
+                            makes your muscles stiff.
+                            Length: interval 3-5 min (total length of the work intervals should not exeed 15-20 minutes)
+                            Rest between intervals: 3-6 min
+                            Benefits: Maximal endurance can also be characterized as maximal aerobic power. It is the
+                            best way for the development of maximal oxygen consumption (VO2max). Most of the energy
+                            comes from carbohydrates (sugar) and only a tiny part from your body fat.
+
+                        </P>
+                    </div>
+                </div>
+                <button id="strengthLink" class="headfonts" href="#strength">STRENGTH</button>
+                <div id="strength">
+                    <p class="black">Strength training, also known as resistance training, causes contractions of the
+                        muscles via external resistance. The resistance can come from using barbells, dumbbells,
+                        resistance bands, strength machines or a person's own body weight.
+
+                        Strength training forms tiny, microscopic tears in a person's muscles. As the tears heal the
+                        muscles repair themselves with new muscle tissue. By developing new muscle tissue, an individual
+                        can improve their aesthetic appearance and transform their physique to make it leaner and more
+                        toned.
+                    </p>
+                    <div class="flex">
+                        <p id="sType1" class="black">
+                            <strong>DUMBBELL TRAINING</strong>
+                            By definition, a dumbbell is a short bar with a weight at either end. Sometimes they come
+                            wrapped in different materials or even feature adjustable dials, but the core concept has
+                            been the same for centuries. Speaking of which, the forebearers of these nifty hand weights
+                            date as far back as ancient Greece.
+                            You can find dumbbells that weigh as little as 1 pound and as much as 375 pounds. That said,
+                            most dumbbells fall within the range of 5-25 pounds. At the nearest gym, the heaviest
+                            dumbbell usually weighs in at around 60 pounds. If you’re looking for anything heavier, you
+                            should be going to one of those special gyms because you’re a beast.As classic free weights,
+                            dumbbells are typically used for joint-isolation exercises.
+
+                        </P>
+                        <p id="sType2" class="black">
+                            <strong>KETTELBELL TRAINING</strong>
+                            Kettlebells are cast iron weights ranging from 5 lbs to over 100 lbs, shaped like a ball
+                            with a handle for easy gripping.
+
+                            The kettlebell originated in Russia and was popular in the U.S. decades ago, but has hit a
+                            resurgence in the last few years with a flurry of classes, videos, and books. The reason?
+                            Kettlebells offer a different kind of training using dynamic moves targeting almost every
+                            aspect of fitness—endurance, strength, balance, agility and cardio endurance. People love it
+                            because it's challenging, efficient and you only need one piece of equipment.
+
+                            The idea is to hold the kettlebell in one or both hands and go through a variety of
+                            exercises like the two arm swing, the snatch, the loaded carry, and the high pull.
+                        </P>
+                        <p id="sType3" class="black">
+                            <strong>BARBELLS TRAINING</strong>
+                            A barbell is a piece of exercise equipment used in weight training, bodybuilding,
+                            weightlifting and powerlifting, consisting of a long bar, usually with weights attached at
+                            each end.
+
+                            Image result for barbell exercise description
+                            Keep the barbell close to your body and pull it straight up toward your chest, bending your
+                            elbows as you do, so that they go just past your torso. Squeeze your shoulder blades at the
+                            top of the movement. Slowly straighten your arms to lower the bar, keeping it off the floor.
+                            This is 1 rep.
+
+                            Booker suggests women generally start with a set of two 5- to 10-pound weights, and men
+                            start with a set of two 10- to 20-pound weights. How to: Stand with a weight in each hand,
+                            near hips, palms forward. Shoulders and elbows should be pinned against the wall.
+                        </P>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="headfonts">OUR TRAINERS</h2>
+                <div id="trainers">
+                    <img id="trainer1" src="Images/trainer1.png" alt="Jonson Day">
+                    <p class="hide white" id="trainer1Bio">
+                        <strong>HENRY IVES</strong><br><br>
+                        <strong class="white">Years of experience: </strong>8 (Since 2013) <br><br>
+                        <strong class="
+                        white">Quality:</strong> Being never particularly good at sport when he was at school,Henry
+                        found that
+                        he actually just really enjoyed fitness,and through that fell into the fitness industry
+                        after gaining his BA.
+                        <br>
+
+                    </p>
+                    <img id="trainer2" src="Images/trainer2.jpg" alt="Jonson Day">
+                    <p class="hide white" id="trainer2Bio">
+                        <strong>JHON DEY</strong><br><br>
+                        <strong class="white">Years of experience: </strong>5 (Since 2015) <br><br>
+                        <strong class="
+                        white">Quality:</strong> Completed level 2 gym instructor course,YMCA Awards.More than that he
+                        did SCQF level 5 Fitness training and helped lots of people to get in shape.Currently owning a
+                        wellknown gym.
+
+                        <br>
+                    </p>
+                    <img id="trainer3" src="Images/trainer4.jpg" alt="Jonson Day">
+                    <p class="hide white" id="trainer3Bio">
+                        <strong>MARTIANA JOY</strong><br><br>
+                        <strong class="white">Years of experience: </strong>10 (Since 2010) <br><br>
+                        <strong class="
+                        white">Quality:</strong> Competing at an international level for Malta in 400m and relays. She
+                        graduated with a BSc in sports and Exercise and an MSc in Strength and Conditioning,acqired a
+                        personal training certificate.
+
+
+                        <br>
+                    </p>
+                </div>
+            </section>
+        </main>
+        <footer>Copyright 2021 &nbsp; All Rights Reserved - <strong>STRONGMAN FITNESS CENTER</strong> </footer>
+        <script src="JS/excercise.js"></script>
+</body>
+
+</html>

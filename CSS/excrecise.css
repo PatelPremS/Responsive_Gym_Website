@@ -1,0 +1,106 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #ffc107;
+  padding: 1em;
+}
+#enduranceLink,
+#strengthLink {
+  background-color: transparent;
+  color: black;
+  border: none;
+  font-weight: bold;
+}
+
+#enduranceLink:hover,
+#strengthLink:hover {
+  color: #ffc107;
+}
+
+p {
+  padding: 1em;
+  text-align: justify;
+}
+
+.black {
+  color: black;
+  font-weight: normal;
+}
+
+.yellow {
+  color: #ffc107;
+}
+
+#endurance,
+#strength,
+#eType1button {
+  display: none;
+  font-weight: bold;
+}
+
+#eType1,
+#eType2,
+#eType3,
+#sType1,
+#sType2,
+#sType3 {
+  border: 2px solid #ffc107;
+  width: 33%;
+  margin-left: 1em;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* border: 10px solid red; */
+}
+
+#eType1,
+#sType1 {
+  align-self: flex-start;
+}
+#eType2,
+#sType2 {
+  align-self: center;
+}
+#eType3,
+#sType3 {
+  align-self: flex-start;
+}
+
+#trainers {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.767);
+}
+
+#trainers h2 {
+  text-align: center;
+  display: block;
+}
+img {
+  height: 75vh;
+  width: 33%;
+  border: 2px solid #ffc107;
+  margin: 1em;
+}
+#trainer1Bio,
+#trainer2Bio,
+#trainer3Bio {
+  border: 2px solid #ffc107;
+  height: 75vh;
+  width: 33%;
+  margin: 1em;
+  font-weight: normal;
+  padding-top: 9em;
+}
+
+.hide {
+  display: none;
+}
